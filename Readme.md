@@ -3,7 +3,7 @@
 
 * [GridDataItem.cs](./CS/App_Code/GridDataItem.cs) (VB: [GridDataItem.vb](./VB/App_Code/GridDataItem.vb))
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - Batch Edit - How to update group summaries with any grouping level
 
