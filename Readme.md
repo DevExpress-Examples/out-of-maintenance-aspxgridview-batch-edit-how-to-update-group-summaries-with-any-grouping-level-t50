@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - Batch Edit - How to update group summaries with any grouping level
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t500924/)**
+<!-- run online end -->
 
 
 In Batch Edit mode, ASPxGridView data changes are passed to the server only after a user clicks the "Save changes" button. As a result, ASPxGridView summaries are not updated as summaries are updated on the server. It is possible to overcome this behavior by implementing a custom summaries update on the client side. <br><br>1. To update group summaries, it is necessary to know to which group a changed row belongs. Every group is uniquely identified by grouped columns' FieldName and grouped rows' values. This info is not available on the client side by default. Pass this info to the client side by handling the ASPxGridView.CustomJSProperties event.:<br>
